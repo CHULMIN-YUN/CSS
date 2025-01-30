@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      @keyframes mymove {
+         /* 0% {
+            transform: rotate(90deg);
+         }
+         25% {
+            transform: rotate(180deg);
+         }
+         75% {
+            transform: rotate(270deg);
+         }
+         100% {
+            transform: rotate(360deg);
+         } */
+          from {
+            transform: rotate(90deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+      }
+
+      .keyframes {
+         background-color: mediumvioletred;
+         height: 200px; width: 200px;
+         margin: 50px;
+         animation: mymove 3s infinite;
+      }
+   </style>
+</head>
+<body>
+   <div class="keyframes"></div>
+</body>
+</html>

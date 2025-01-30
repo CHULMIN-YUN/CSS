@@ -1,0 +1,23 @@
+body {
+   height: 1000vh;
+}
+
+.block {
+   width: 150px;
+   height: 150px;
+   background-color: tomato;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#second {
+   background-color: seagreen;
+   position: relative;
+   left: 20px;
+}
+button:active {
+   color: lime;
+}
+a:hover {
+   color: red;
+}

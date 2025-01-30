@@ -1,0 +1,73 @@
+p {
+  text-decoration: blue wavy overline 5px;
+  text-transform: capitalize;
+  text-shadow: 2px 2px lightgray;
+}
+
+ul > li {
+  margin-right: 2em;
+  /* display: inline-block; */
+}
+
+ul > li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.circle {
+  width: 200px; height: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.overflow {
+  margin-top: 20px;
+  width: 200px; height: 100px;
+  overflow: auto;
+}
+
+.boxshadow {
+  width: 200px; height: 200px;
+  background-color: lightgray;
+  box-shadow: 4px 4px 12px gray;
+  border-radius: 24px;
+  margin-top: 20px;
+}
+
+.color {
+  margin-top: 20px;
+  color: yellow;
+  background-color: #333;
+}
+
+.outer {
+  width: 200px; height: 200px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.with-bg {
+  height: 100%;
+  background-image: url(mona-lisa.jpg);
+  background-size: cover;
+}
+
+.gradient {
+  width: 200px; height: 200px;
+  background: 
+    linear-gradient(217deg, red, transparent 70%),
+    linear-gradient(127deg, lime, transparent 70%),
+    linear-gradient(336deg, blue, transparent 70%);
+  margin-top: 20px;
+}
+
+.zindex {
+  width: 300px; height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background-color: skyblue;
+  position: relative;
+  top: 20px; 
+  left: 0;
+}
